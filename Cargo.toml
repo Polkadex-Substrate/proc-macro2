@@ -1,5 +1,5 @@
 [package]
-name = "proc-macro2-no-std"
+name = "proc-macro2"
 version = "1.0.27" # remember to update html_root_url
 authors = ["Alex Crichton <alex@alexcrichton.com>", "David Tolnay <dtolnay@gmail.com>"]
 license = "MIT OR Apache-2.0"
@@ -23,7 +23,7 @@ targets = ["x86_64-unknown-linux-gnu"]
 features = ["span-locations"]
 
 [dependencies]
-unicode-xid = {version="0.2", features = ["no_std"]
+unicode-xid = {version="0.2", features = ["no_std"]}
 
 [dev-dependencies]
 quote = { version = "1.0", default_features = false }
